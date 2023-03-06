@@ -1,0 +1,4 @@
+FROM blutv/amazonlinux2-python3
+RUN mkdir 1/
+COPY script.sh .
+CMD ./script.sh
